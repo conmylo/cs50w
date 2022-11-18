@@ -1,0 +1,151 @@
+body {
+    font-family: arial,sans-serif;
+    color: #242529;
+}
+
+h2 {
+    font-size: 0px;
+}
+
+h2:hover {
+    cursor: default;
+}
+
+span {
+    margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+}
+
+#g {
+    color: #4385f4;
+}
+
+#o, #e {
+    color: #ea4335;
+}
+
+#o2 {
+    color: #fbbc07;
+}
+
+#l {
+    color: #35a853;
+}
+
+#imagesText {
+    font-size: 30px;
+    color: #4385f4;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #5d5d5d;
+}
+
+
+.searchbar {
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 40px;
+    border-color: #f8f9fa;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    text-align: left;
+    max-height: 160px;
+    font-size: 14px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchbar-sm {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    width: 400px;
+}
+
+.searchbar:hover, .searchbar:focus, .searchbutton:hover {
+    box-shadow: 0 0 2px 2px #f8f9fa;
+    outline: none;
+}
+
+.searchbar-sm:focus {
+    box-shadow: 0 0 1px 1px blue;
+    outline: none;
+}
+
+.searchbutton {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    display: inline block;
+    border-style: none;
+    margin: 10px 5px;
+    padding: 5px 15px;
+}
+
+.advsearchbutton {
+    background-color: #498af3;
+    color: white;
+    border-radius: 5px;
+    display: inline block;
+    border-style: none;
+    margin: 10px 5px;
+    padding: 5px 15px;
+}
+
+.advsearch {
+    color: red;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 26px;
+}
+
+.text-input-table {
+    margin: 15px 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.text-input-table tr {
+    font-size: 15px;
+    text-align: left;
+}
+
+.vertical-center {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 100px) {
+    .searchbar {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 200x) {
+    .searchbar-sm {
+        width: 40%;
+    }
+}
